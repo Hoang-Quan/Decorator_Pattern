@@ -1,2 +1,2 @@
-public class Magic {
+public class Magic extends Decorator{
 }

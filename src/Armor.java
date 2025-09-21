@@ -1,2 +1,3 @@
-public class Armor {
+public class Armor extends Decorator{
+
 }

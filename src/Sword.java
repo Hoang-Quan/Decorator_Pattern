@@ -1,2 +1,2 @@
-public class Sword {
+public class Sword extends Decorator{
 }
