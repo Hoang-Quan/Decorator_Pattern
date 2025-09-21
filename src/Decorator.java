@@ -1,13 +1,9 @@
 public abstract class Decorator implements Character {
-    private Character character;
+    protected Character character;
 
     public Decorator(Character character) {
         this.character = character;
     }
-
-    protected Decorator() {
-    }
-
     @Override
     public String getDescription() {
         return character.getDescription();
